@@ -21,6 +21,7 @@
     "get-token": "ts-node src/common/get-refresh-token.ts",
     "verify-oauth2": "ts-node src/common/verify-oauth2.ts"
   },
+  "vercel-build": "npm install --legacy-peer-deps && npm run build",
   "dependencies": {
     "@nestjs/common": "^10.0.0",
     "@nestjs/config": "^3.0.0",
